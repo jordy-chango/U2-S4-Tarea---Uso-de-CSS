@@ -3,7 +3,63 @@ html, body{
     margin: 0;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #FFD44F;
+}
+
+* {
+  margin: 2;
+  padding: 2;
+}
+
+article{
+    background-color: rgb(219, 166, 42);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+      transition: transform 0.4s ease;
+}
+
+article:hover {
+  transform: scale(1.03);
+
+}
+article p {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container{
+ display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.image-section img {
+   width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#titulo {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  
+}
+
+.center-title {
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper{
