@@ -3,7 +3,7 @@
 Breve descripción del proyecto.  
 Ejemplo: Sistema web/desktop para la gestión de reservas y pedidos en un restaurante.
 
----
+---ca,ne
 
 ## 🚀 Características
 
