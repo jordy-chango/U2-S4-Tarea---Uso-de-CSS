@@ -3,7 +3,7 @@ html, body{
     margin: 0;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFD44F;
+    background-color: whitesmoke;
 }
 
 * {
@@ -12,7 +12,7 @@ html, body{
 }
 
 article{
-    background-color: rgba(204, 193, 134, 0.936);
+    background-color: #cfcecd;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -35,6 +35,12 @@ article p {
 .container{
  display: flex;
   justify-content: center;
+  margin-top: 20px;
+}
+
+.container-dentro {
+  display: flex;
+  flex-direction: row;
   margin-top: 20px;
 }
 
