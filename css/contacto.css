@@ -2,7 +2,7 @@
 input[type="text"],
 input[type="email"],
 input[type="date"],
-textarea,button{
+textarea{
 width: 100%;
 padding: 12px;
         margin-top: 10px;
@@ -27,3 +27,32 @@ max-width: 400px;
 margin: auto;
 }
 
+
+h2{
+font-size: large;
+text-align: center;
+color: #DBA62A;
+}
+
+
+p{
+font-size: medium;
+text-align: center;
+}
+
+button{
+    width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        background-color: #DBA62A;
+        font-size: 14px;
+}
+
+#enviarContacto:hover{
+    border : 1px  solid #ccc;
+    background-color: #ffcd57;
+}
