@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="css/registro.css">
+    <Link rel="stylesheet" href="css/estilos.css">
+
+    <title>Mi sitio web</title>
+
+
+</head>
+
+<body class="wrapper">
+    <header>
+        <h1>Mi primer sitio web </h1>
+        <nav>
+
+            <a href="index.html">Inicio</a>
+                
+
+            <a href="acerca.html">Acerca de</a>
+
+
+
+            <a href="servicios.html">Servicios</a>
+
+
+
+            <a href="contacto.html">Contacto</a>
+
+
+            <a href="registro.html">Registro</a>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <h1>Formulario de registros</h1>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="correo">Correo electronico:</label>
+            <input type="email" name="correo" id="correo">
+
+            <label>Genero:</label>
+
+            <div class="radio-group">
+                <input type="radio" name="genero" id="masculino" value="masculino">
+                <label for="masculino">masculino</label>
+
+                <input type="radio" name="genero" id="femenino" value="femenino">
+                <label for="femenino">femenino</label>
+
+            </div>
+
+            <label for="pais">Pais de residencia</label>
+            <select name="pais" id="pais">
+                <option value="">--Seleciona un pais--</option>
+                <option value="ecuador">Ecuador</option>
+                <option value="argentina">Argentina</option>
+            </select>
+
+
+
+            <label for="fechaNac">Fecha de Nacimiento</label>
+
+            <input type="date" id="fechaNac" name="fechaNac">
+
+            <button type="submit" id="enviarFormulario">Enviar</button>
+        </form>
+
+
+
+    </main>
+
+    <footer>
+        <p> &copy; 2026 Mi primer sitio web. Todos los derechos reservados.</p>
+
+    </footer>
+
+</body>
+
+</html>
